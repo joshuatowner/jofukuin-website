@@ -12,15 +12,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-
       - name: Configure Hugo
         run: |
           echo baseURL = \"https://joshuatowner.github.io/jofukin-website/\" >> config.toml
           echo canonifyurls = true >> config.toml
+          echo config.toml
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
 
       - name: Build
         run: hugo --minify
