@@ -19,7 +19,7 @@ jobs:
 
       - name: Configure Hugo
         run: |
-          echo baseURL = \"http://example.org/\" >> config.toml
+          echo baseURL = \"https://joshuatowner.github.io/jofukin-website/\" >> config.toml
           echo canonifyurls = true >> config.toml
 
       - name: Build
