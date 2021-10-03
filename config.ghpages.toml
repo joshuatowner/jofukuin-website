@@ -1,6 +1,8 @@
 languageCode = "en-us"
 title = "Jofukin"
 theme = "default"
+baseurl="https://joshuatowner.github.io/jofukin-website/"
+canonifyurls = true
 
 [markup.goldmark.renderer]
 unsafe= true
