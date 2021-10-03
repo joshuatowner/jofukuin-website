@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Jofukin"
+title = "Jofukuin"
 theme = "default"
 
 [markup.goldmark.renderer]
