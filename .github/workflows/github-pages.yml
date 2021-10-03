@@ -16,7 +16,7 @@ jobs:
         run: |
           echo baseURL = \"https://joshuatowner.github.io/jofukin-website/\" >> config.toml
           echo canonifyurls = true >> config.toml
-          echo config.toml
+          cat config.toml
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
