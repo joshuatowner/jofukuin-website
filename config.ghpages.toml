@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Jofukin"
 theme = "default"
-baseurl="https://joshuatowner.github.io/jofukin-website/"
+baseurl="https://joshuatowner.github.io/jofukuin-website/"
 canonifyurls = true
 disableKinds = ["RSS"]
 
