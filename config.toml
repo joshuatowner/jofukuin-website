@@ -1,6 +1,7 @@
+[markup.goldmark.renderer]
+unsafe= true
+
 languageCode = "en-us"
 title = "Jofukin"
 theme = "default"
 
-[markup.goldmark.renderer]
-unsafe= true
