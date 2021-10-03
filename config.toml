@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Jofukin"
 theme = "default"
+canonifyurls = true
 
 [markup.goldmark.renderer]
 unsafe= true
