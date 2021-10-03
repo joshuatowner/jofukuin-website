@@ -18,8 +18,9 @@ jobs:
           hugo-version: 'latest'
 
       - name: Configure Hugo
-        run: echo baseURL = \"http://example.org/\" >> config.toml |
-        echo canonifyurls = true >> config.toml
+        run: |
+          echo baseURL = \"http://example.org/\" >> config.toml
+          echo canonifyurls = true >> config.toml
 
       - name: Build
         run: hugo --minify
