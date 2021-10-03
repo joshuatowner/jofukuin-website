@@ -1,8 +1,7 @@
 ---
-title: "hello"
-date: 2021-10-03T01:40:21-04:00
+title: "Visit Japan"
 featured_image: '/images/img3.jpg'
-description: 'hi'
+description: 'there is a temple'
 ---
 
 welcome

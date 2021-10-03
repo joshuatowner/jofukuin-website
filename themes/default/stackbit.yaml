@@ -212,7 +212,7 @@ models:
     type: page
     label: Posts
     folder: post
-    exclude: _index.md
+    exclude: "*.md"
     layout: _default/single.html
     fields:
       - type: string

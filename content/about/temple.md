@@ -1,8 +1,8 @@
 ---
-title: "About the Hotel"
+title: "About the Temple"
 draft: false
 type: page
 menu: { main: { parent: "About" } }
 ---
 
-About the hotel content
+text content
