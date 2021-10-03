@@ -3,6 +3,7 @@ title = "Jofukin"
 theme = "default"
 baseurl="https://joshuatowner.github.io/jofukin-website/"
 canonifyurls = true
+disableKinds = ["RSS"]
 
 [markup.goldmark.renderer]
 unsafe= true
