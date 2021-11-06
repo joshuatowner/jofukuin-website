@@ -14,7 +14,7 @@
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
               <li class="list f5 f4-ns fw4 dib pl3 subnav-parent">
-                <a class="hover-white no-underline white-80" title="{{ i18n "pageTitle" . }}">
+                <a class="hover-white no-underline white-80" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
                 {{ .Name }}
                 </a>
                 <ul class="subnav">

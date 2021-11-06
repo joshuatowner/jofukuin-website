@@ -4,4 +4,6 @@ featured_image: '/images/img3.jpg'
 description: 'there is a temple'
 ---
 
-welcome philip
+{{% form-booking %}}
+
+Come stay plz
